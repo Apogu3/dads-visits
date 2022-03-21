@@ -1,0 +1,45 @@
+{ 
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name"
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "OFFICE_ID": 123,
+                "NAME": "South Austin AG Office",
+                "ADDRESS": "2102 E St Elmo Rd. bldg 2 ste 225, Austin, TX 78744"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-97.76332, 30.23336]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties": {
+                "OFFICE_ID": 124,
+                "NAME": "Texas Child Support Division",
+                "ADDRESS": "5500 E Oltorf St. Austin, TX 78741"
+            },
+            
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-97.73827, 30.24278]
+                }
+            },
+            {
+                "type":"Feature",
+                "properties": {
+                    "OFFICE_ID": 125,
+                    "NAME": "North Austin AG Office",
+                    "ADDRESS": "508 Old Austin Hutto Rd. Pflugerville, TX 78660"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-97.62392, 30.46427]
+                }
+            }
+    ]
+}
