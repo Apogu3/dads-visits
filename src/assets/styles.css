@@ -22,6 +22,15 @@ code {
   --color-6: #333;
 }
 
+/*Header*/
+
+.custom-head {
+  color:aqua;
+  text-align: center;
+  text-shadow: 2px 2px #00786F;
+  font-family: Verdana, sans-serif;
+}
+
 /*Emblems */
 .emblem-link {
   border-radius: 50%;
