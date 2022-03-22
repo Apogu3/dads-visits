@@ -10,7 +10,7 @@ const Info = () => {
     </div>
     <div>
       <Container>
-        <Card className="text-center" border="info" style={{ background:'#242526', borderWidth: 3  }}>
+        <Card className="text-center" border="info" style={{ background:'#00786F', borderWidth: 3  }}>
           <Card.Body>
             This is some info about Dads Visits!
           </Card.Body>
