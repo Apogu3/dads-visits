@@ -10,9 +10,11 @@ const Info = () => {
     </div>
     <div>
       <Container>
-        <Card className="text-center" border="info" style={{ background:'#00786F', borderWidth: 3  }}>
+        <Card className="text-center" border="info" style={{ background:'#00786F', borderWidth: 3, fontSize: 30  }}>
           <Card.Body>
-            This is some info about Dads Visits!
+            Dad's Visits is a user friendly and free application that was designed to 
+            make remembering visitation easier. As well as finding AG offices/child support offices locations
+            along with conact information. 
           </Card.Body>
         </Card>
       </Container>

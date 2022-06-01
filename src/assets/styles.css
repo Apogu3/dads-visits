@@ -29,7 +29,8 @@ code {
   text-align: center;
   text-shadow: 2px 2px #00786F;
   font-family: Verdana, sans-serif;
-  padding: 80px;
+  padding: 70px;
+  font-size: 60px;
 }
 
 /*Emblems */
@@ -49,6 +50,26 @@ code {
 /* Footer */
 .foot-color {
   color: white;
+}
+
+/* Accordion */
+.accord-align {
+  position: relative;
+  align-content: center;
+  padding: 50px;
+}
+
+.btn-align {
+  align-self: center;
+}
+
+.questions {
+  font-family: Verdana, sans-serif;
+  font-size: large;
+}
+
+.accord-answers {
+  text-align: center;
 }
 
 /* Calendar */
@@ -125,6 +146,30 @@ section .form {
 }
 
 /*MapBox*/
+
+.map-title {
+  color:aqua;
+  text-align: center;
+  text-shadow: 2px 2px #00786F;
+  font-family: Verdana, sans-serif;
+  padding: 80px;
+}
+
+.resource-info {
+  font-weight: bold;
+}
+
+.map-pos {
+  position: relative;
+  padding: 10% 20% 20%;
+  
+  
+}
+.map-align {
+  border: 2px solid #00F4F7;
+  border-radius: 20px;
+  box-shadow: 0 0 8px 3px #00F4F7;
+}
 .office-popup {
   color: black;
 }
@@ -135,8 +180,8 @@ section .form {
 }
 
 .office-mrk img {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
 }
 
 /* Profile */
