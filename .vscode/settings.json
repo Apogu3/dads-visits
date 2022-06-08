@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/f33a2588-e8db-4d5a-8474-c07ac5400260/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/DadsVisitss",
-    "appService.deploySubpath": "."
-}
