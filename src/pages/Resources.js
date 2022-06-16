@@ -55,7 +55,7 @@ import Data from '../data/ag-offices.json';
     <div className="map-pos">
       <Map className="map-align" 
       {...viewport} 
-      mapboxAccessToken={process.env.NODE_ENV}
+      mapboxAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
       mapStyle="mapbox://styles/apogue/ckz6cl5nc000116pdd2wjpuea"
       onViewportChange={viewport => {
         setViewport(viewport);
