@@ -4,10 +4,11 @@ frontend:
     preBuild:
       commands:
         - npm ci
+        
     build:
       commands:
-      - REACT_APP_MAPBOX_TOKEN=${REACT_APP_MAPBOX_TOKEN}
-      - npm run build
+      
+        - npm run build:$BUILD_ENV
   artifacts:
     baseDirectory: build
     files:
@@ -15,4 +16,5 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
+ 
   
