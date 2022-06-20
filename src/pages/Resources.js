@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import MapboxGL, { Marker, Popup, } from "react-map-gl";
+import Map, { Marker, Popup, } from "react-map-gl";
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Data from '../data/ag-offices.json';
@@ -50,8 +50,8 @@ import Data from '../data/ag-offices.json';
       </Card>
     </Container>
   </div>
-    <div className="map-pos">
-      <MapboxGL className="map-align" 
+    <div>
+      <Map 
       {...viewport} 
       mapboxApiAccessToken="pk.eyJ1IjoiYXBvZ3VlIiwiYSI6ImNrejR3ZWJ3MTBrdDEydm55Z3VndWJrcDMifQ.QDJkZEAnylhjgOOLesRDYw"
       mapStyle="mapbox://styles/apogue/ckz6cl5nc000116pdd2wjpuea"
@@ -92,7 +92,7 @@ import Data from '../data/ag-offices.json';
             </div>
           </Popup>
         ) : null}
-      </MapboxGL>
+      </Map>
     </div>
     </>
   );
