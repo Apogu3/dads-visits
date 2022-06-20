@@ -6,8 +6,8 @@ import Data from '../data/ag-offices.json';
 
  function Resources() {
   const [viewport, setViewport] = useState({
-    width: "100",
-    height: "100",
+    width: "60vw",
+    height: "60vh",
     zoom: 9.5
   });
   
