@@ -3,9 +3,6 @@ import Map, { Marker, Popup, } from "react-map-gl";
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Data from '../data/ag-offices.json';
-import mapboxgl from 'mapbox-gl';
-// eslint-disable-line
-mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default; 
 
 
 
