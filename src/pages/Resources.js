@@ -4,10 +4,6 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Data from '../data/ag-offices.json';
 
-// @ts-ignore
-// eslint-disable-next-line import/no-webpack-loader-syntax
-import mapboxgl from '!mapbox-gl';
-
  function Resources() {
   const [viewport, setViewport] = useState({
     width: "60",
