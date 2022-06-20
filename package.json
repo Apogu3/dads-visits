@@ -56,8 +56,5 @@
       "not IE 11",
       "maintained node versions"
     ]
-  },
-  "devDependencies": {
-    "worker-loader": "^3.0.8"
   }
 }
