@@ -17,7 +17,7 @@
     "eslint-config-react-app": "^7.0.1",
     "firebase": "^9.8.3",
     "firechat": "^3.0.1",
-    "mapbox-gl": "^2.9.0",
+    "mapbox-gl": "^1.13.0",
     "moment": "^2.29.3",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
