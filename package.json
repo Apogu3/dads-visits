@@ -54,5 +54,8 @@
       "not IE 11",
       "maintained node versions"
     ]
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }
