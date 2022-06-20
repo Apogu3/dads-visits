@@ -3,15 +3,17 @@ import Map, { Marker, Popup, } from "react-map-gl";
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Data from '../data/ag-offices.json';
-import mapboxgl from "!mapbox-gl";
+import mapboxgl from "mapbox-gl";
 
 
-mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
+// eslint-disable-next-line import/no-webpack-loader-syntax
+mapboxgl.workerClass =
+require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
 
  function Resources() {
   const [viewport, setViewport] = useState({
-    width: "60vw",
-    height: "60vh",
+    width: "60",
+    height: "60",
     zoom: 9.5
   });
   
