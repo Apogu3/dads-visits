@@ -17,7 +17,7 @@
     "eslint-config-react-app": "^7.0.1",
     "firebase": "^9.8.3",
     "firechat": "^3.0.1",
-    "mapbox-gl": "^1.13.0",
+    "mapbox-gl": "^2.9.0",
     "moment": "^2.29.3",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
@@ -34,7 +34,7 @@
     "webpack": "^5.73.0"
   },
   "scripts": {
-    "start": "env-cmd -f .env.prod react-scripts --max_old_space_size=4096 start",
+    "start": "env-cmd -f .env.production react-scripts --max_old_space_size=4096 start",
     "build:prod": "env-cmd -f .env.production react-scripts --max_old_space_size=4096 build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
