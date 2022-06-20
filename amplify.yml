@@ -7,7 +7,7 @@ frontend:
         - npm ci
     build:
       commands:
-      - npm install env-cmd
+
         - npm run build:$BUILD_ENV
   artifacts:
     baseDirectory: build
