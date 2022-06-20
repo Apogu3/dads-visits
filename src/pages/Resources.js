@@ -3,7 +3,7 @@ import Map, { Marker, Popup, } from "react-map-gl";
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Data from '../data/ag-offices.json';
-//import ReactMapGl, { Marker, Popup } from 'mapbox-gl';
+
 
 
  function Resources() {
