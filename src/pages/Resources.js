@@ -50,8 +50,8 @@ import Data from '../data/ag-offices.json';
       </Card>
     </Container>
   </div>
-    <div>
-      <Map 
+    <div className="map-pos">
+      <Map className="map-align" 
       {...viewport} 
       mapboxApiAccessToken="pk.eyJ1IjoiYXBvZ3VlIiwiYSI6ImNrejR3ZWJ3MTBrdDEydm55Z3VndWJrcDMifQ.QDJkZEAnylhjgOOLesRDYw"
       mapStyle="mapbox://styles/apogue/ckz6cl5nc000116pdd2wjpuea"
